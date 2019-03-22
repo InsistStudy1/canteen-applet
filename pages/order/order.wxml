@@ -1,0 +1,24 @@
+<!-- 订单列表区域 -->
+<view class="orderlist">
+  <block wx:for="{{orderList}}" wx:key="{{item.order_id}}">
+    <view class="item">
+
+      <image src="{{item.image}}"/>
+
+      <view class="info">
+        <view class="title">{{ item.canteenType }}</view>
+        <view class="time">{{ item.create_time }}</view>
+        <view class="foodname">{{ item.goods_name }}{{ item.type_name }} {{ item.goods_num }} 件</view>
+      </view>
+
+      <view class="remark">
+        <view class="status" wx:if="item.commit_state == 0">待评价</view>
+        <view class="status" wx:else>已评价</view>
+        <view class="price">¥{{ item.price * item.goods_num }}.00</view>
+        <view class="btn" wx:if="item.commit_state == 0" bindtap="comment">评价</view>
+      </view>
+
+    </view>
+  </block>
+</view>
+

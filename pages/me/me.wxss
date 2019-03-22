@@ -1,0 +1,35 @@
+/* ----------------------------------- 头部区域 Start ----------------------------------- */
+.page-hd {
+  height: 350rpx;
+  background-color: #ffcc58;
+  box-sizing: border-box;
+}
+.userinfo {
+  padding-top: 46rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo image {
+  width: 180rpx;
+  height: 180rpx;
+  margin-bottom: 14rpx;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.userinfo text {
+  color: #fff;
+  font-size: 32rpx;
+}
+/* ----------------------------------- 头部区域 End ----------------------------------- */
+
+/* ----------------------------------- 个人信息 Start ----------------------------------- */
+.page-bd .iconfont {
+  margin: 0 7rpx;
+  font-size: 40rpx;
+  color: #fcb84f;
+}
+.noSetting {
+  padding-right: 10rpx;
+}
+/* ----------------------------------- 个人信息 End ----------------------------------- */

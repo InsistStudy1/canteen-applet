@@ -1,0 +1,83 @@
+<view class="post-order-container">
+  <!-- 头部 -->
+  <view class="order-header panel">
+    <!-- 订餐方式筛选 -->
+    <i-tabs current="{{ currentOrderType }}" color="orange" bindchange="switchOrderType">
+      <i-tab i-class="tab-title" key="scene-order" title="现场点餐"></i-tab>
+      <i-tab i-class="tab-title" key="take-out" title="外卖配送"></i-tab>
+    </i-tabs>
+    <!-- 地址选择 -->
+    <view class="address-container">
+      <!-- 现场订餐 -->
+      <view class="scene-order" wx:if="{{ currentOrderType == 'scene-order' }}">
+        <view class="address" wx:if="{{ qsCodeRes != '' }}">您的餐位：{{ qsCodeRes }}</view>
+        <button bindtap="scanCode">
+          <text wx:if="{{ qsCodeRes != '' }}">重新</text>
+          扫码选座
+        </button>
+      </view>
+      <!-- 外卖点餐 -->
+      <navigator url="/pages/userinfo/address-list/address-list">
+        <div class="take-out" wx:if="{{ currentOrderType == 'take-out' }}">
+          <block wx:if="{{ !defaultAddressFlag }}">
+            <text class="no_have_address">请添加收地址</text>
+          </block>
+          <block wx:else>
+            <text class="address">{{ addressInfo.address }} {{ addressInfo.detail_address }}</text>
+            <view class="info">
+              <text class="realname">{{ addressInfo.realname }}（{{ addressInfo.gender == 0 ? '先生' : '女士' }}）</text>
+              <text class="tel">{{ addressInfo.telNumber }}</text>
+            </view>
+          </block>
+        </div>
+      </navigator>
+
+      <text class="arrow iconfont icon-youjiantou"></text>
+    </view>
+    <!-- 配送信息 -->
+    <div class="dispatching-info" wx:if="{{ currentOrderType == 'take-out' }}">
+      <text class="title">立即送出</text>
+      <text class="time">大约 13 : 56 送达</text>
+    </div>
+  </view>
+
+  <!-- 订单列表 -->
+  <view class="order-list-container panel">
+    <!-- 头部 -->
+    <view class="header">{{ orderInfo.canteen_name }}</view>
+    <!-- 列表内容 -->
+    <view class="list">
+      <block wx:for="{{ orderInfo.food_list }}" wx:key="{{ item.food_id }}">
+        <view class="food-item">
+          <image src="{{ item.sml_image }}"></image>
+          <view class="content">
+            <text class="title">{{ item.food_name }}</text>
+            <text class="num">× {{ item.number }}</text>
+          </view>
+          <text class="price">
+            <text class="mark">¥</text>{{ item.number * item.price }}
+          </text>
+        </view>
+      </block>
+    </view>
+    <!-- 额外信息 -->
+    <view class="detail">
+      <view class="detil-item">
+        <text class="left">包装费</text>
+        <view class="price">
+          <text class="mark">¥</text>
+          0
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部提示 -->
+  <view class="order-footer footer-nav">
+    <view class="info">
+      合计
+      <text class="price">¥ {{ orderInfo.total_price }}</text>
+    </view>
+    <view class="button" bindtap="postOrder">提交订单</view>
+  </view>
+</view>

@@ -1,0 +1,72 @@
+<view class="carts-page">
+  <block wx:for="{{ shopCarList }}" wx:key="{{ item.canteen_id }}">
+    <view class="canteen-type-item">
+      <!-- 饭堂类型 -->
+      <view class="header">
+        <i-checkbox value="{{ item.canteen_name }}"
+                    checked="{{ item.is_checked }}"
+                    data-canteen-index="{{ index }}"
+                    data-canteen-id="{{item.canteen_id}}"
+                    data-checked="{{ item.is_checked }}"
+                    color="#ffcc58"
+                    bindchange="editCanteenTypeCheck">
+        </i-checkbox>
+        <text>{{ item.canteen_name }}</text>
+      </view>
+
+      <!-- 所属饭堂列表 -->
+      <block wx:for="{{ item.food_list }}" wx:for-item="food_item" wx:for-index="food_index"
+             wx:key="{{ food_item.food_id }}">
+        <i-swipeout actions="{{ action }}" bind:change="deleteFoodItem" data-food-id="{{ food_item.food_id  }}">
+          <view class="type_item" slot="content">
+            <i-checkbox value="{{ food_item.food_id }}"
+                        data-canteen-index="{{ index }}"
+                        data-food-index="{{ food_index }}"
+                        data-checked="{{ item.is_checked }}"
+                        checked="{{ food_item.is_check }}"
+                        color="#ffcc58"
+                        bindchange="editFoodCheck">
+            </i-checkbox>
+            <image src="{{ food_item.sml_image }}" data-food-id="{{ food_item.food_id }}" bindtap="skipFoodDetails"></image>
+
+            <view class="content">
+              <view class="title">{{ food_item.food_name }}</view>
+              <view class="price">¥{{ food_item.price }}</view>
+            </view>
+
+            <i-input-number
+                    value="{{ food_item.number }}"
+                    min="1" max="100"
+                    data-canteen-index="{{ index }}"
+                    data-food-index="{{ food_index }}"
+                    data-food-id="{{ food_item.food_id }}"
+                    bindchange="editFoodNum"/>
+          </view>
+        </i-swipeout>
+      </block>
+      <!-- 结算栏 -->
+      <view class="payment">
+        <view class="button" data-canteen-id="{{ item.canteen_id }}" data-canteen-index="{{ index }}"
+              bindtap="postOrder">去结算
+        </view>
+        <text class="price">¥{{ item.total_price }}</text>
+      </view>
+    </view>
+  </block>
+
+  <!-- 底部导航 -->
+  <!--<view class="footer-nav">-->
+  <!--<i-checkbox value="一饭二楼" checked color="#ffcc58" bindchange="change" chekced></i-checkbox>-->
+  <!--<view class="content">-->
+  <!--<text>全选</text>-->
+  <!--<text wx:if="!deleteFlag"> （ 不含运费 ）-->
+  <!--<text class="price">¥ 0.0</text>-->
+  <!--</text>-->
+  <!--</view>-->
+  <!--<view class="btn {{checkedCount >= 1 ? 'active' : 0}}" wx:if="{{!deleteFlag}}">选好了</view>-->
+  <!--<view class="btn {{checkedCount >= 1 ? 'active' : 0}}" wx:if="{{deleteFlag}}">删除</view>-->
+  <!--</view>-->
+
+  <!--<view class="footer-delete">删除</view>-->
+</view>
+

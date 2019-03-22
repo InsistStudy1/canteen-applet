@@ -1,0 +1,17 @@
+<view class="comment-container">
+  <!-- 菜品评分 -->
+  <view class="star-box">
+    <text>菜品评分：</text>
+    <i-rate bind:change="chaneStar" value="{{star}}" size="24"></i-rate>
+    <text class="star-text">{{ starTextArray[star - 1] }}</text>
+  </view>
+  <!-- 评论详情 -->
+  <textarea bindblur="changCommentContent" focus="true" placeholder="菜品口味如何，服务周到吗（写够15字哦）"/>
+
+  <upload-images maxUploadNum="4" bind:getimagelist="getImageList"></upload-images>
+
+  <!--发表按钮-->
+  <button bindtap="postComment">发表评论</button>
+
+  <i-message id="message"/>
+</view>

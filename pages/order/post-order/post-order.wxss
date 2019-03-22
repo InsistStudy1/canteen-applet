@@ -1,0 +1,168 @@
+Page {
+  background: linear-gradient(#ffcc58, #f9f9f9, #f9f9f9) fixed;
+}
+.post-order-container {
+  margin: 14rpx;
+}
+.panel {
+  padding: 0 25rpx;
+  background-color: #fff;
+  border-radius: 5rpx;
+
+}
+.price {
+  padding-top: 10rpx;
+  font-size: 34rpx;
+  color: #000;
+}
+.price .mark {
+  font-size: 24rpx;
+}
+/* ----------------------------------- header Start ----------------------------------- */
+/* 地址选择 Start */
+.address-container {
+  position: relative;
+  padding: 25rpx 0;
+}
+.address-container .arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 26rpx;
+  transform: translateY(-50%);
+}
+.i-tabs-tab-title {
+  display: block;
+  padding: 10rpx 0;
+  width: 150rpx;
+}
+  /*现场点餐*/
+.scene-order .address {
+  line-height: 70rpx;
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+.scene-order button {
+  width: 260rpx;
+  font-size: 26rpx;
+  background-color: #ffcc58;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+/*外卖点餐*/
+.take-out .address {
+  display: block;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+  margin-top: 10rpx;
+}
+.take-out .no_have_address {
+  /*line-height: 200rpx;*/
+  color: #666;
+  font-size: 35rpx;
+  padding-left: 20rpx;
+}
+.take-out .info {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 22rpx;
+}
+
+/* 配送信息 Start */
+.dispatching-info {
+  border-top: 1px solid #eee;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+}
+/* ----------------------------------- header Start ----------------------------------- */
+
+/* ----------------------------------- 订单列表 Start ----------------------------------- */
+.order-list-container {
+  margin-top: 14rpx;
+}
+/*头部*/
+.order-list-container .header {
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 28rpx;
+  color: #666;
+  border-bottom: 1px solid #eee;
+}
+/*列表内容*/
+.order-list-container .list {
+  padding: 15rpx 0;
+}
+.order-list-container .list .food-item {
+  padding: 15rpx 0;
+  display: flex;
+}
+.order-list-container .list .food-item image{
+  width: 125rpx;
+  height: 125rpx;
+}
+.order-list-container .list .food-item .content {
+  flex: 1;
+  padding: 5rpx 0 5rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.order-list-container .list .food-item .content .title {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333;
+}
+.order-list-container .list .food-item .content .num {
+  font-size: 24rpx;
+  color: #666;
+}
+.order-list-container .list .food-item .price {
+  padding-top: 10rpx;
+}
+/*额外信息*/
+.order-list-container .detail .detil-item {
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 28rpx;
+  color: #333;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------------------------------- 订单列表 Start ----------------------------------- */
+
+/* ----------------------------------- 脚部提示 Start ----------------------------------- */
+.order-footer {
+  display: flex;
+  line-height: 88rpx;
+}
+.order-footer .info {
+  flex: 1;
+  color: #fff;
+  font-size: 28rpx;
+  padding-left: 30rpx;
+  font-weight: 300;
+}
+.order-footer .info .price {
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #fff;
+  padding-left: 20rpx;
+}
+.order-footer .button {
+  width: 200rpx;
+  height: 100%;
+  background-color: #ffcb57;
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #472d22;
+}
+
+/* ----------------------------------- 脚部提示 Start ----------------------------------- */

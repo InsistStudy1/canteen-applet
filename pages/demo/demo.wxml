@@ -1,0 +1,3 @@
+<view>
+  <button bindtap="zf">支付</button>
+</view>

@@ -1,0 +1,26 @@
+<view class="add-address-list-page">
+  <view class="add-address-list-title">收获地址</view>
+
+  <form bindsubmit="postAddAddress">
+
+    <i-panel i-class="panel">
+      <view class="address-container">
+        <i-input name="address" bindtap="getLocation" type="textarea" title="收货地址" placeholder="点击选择收获地址" maxlength="50" value="{{ addressList.address }}"/>
+        <view class="location" bindtap="getLocation">
+          <text class="iconfont icon-ziyuan"></text>
+        </view>
+      </view>
+      <i-input name="detailAddress" title="详细地址" placeholder="详细地址（如门牌号等）" maxlength="50" value="{{ addressList.detail_address }}"/>
+      <i-input name="realName" title="联系人" autofocus placeholder="联系人" value="{{ addressList.realname }}"/>
+      <view class="gender">
+        <view class="tabBtn {{gender == 0 ? 'active' : ''}}" data-gender="0" bindtap="changeGender">先生</view>
+        <view class="tabBtn {{gender == 1 ? 'active' : ''}}" data-gender="1" bindtap="changeGender">女士</view>
+      </view>
+      <i-input name="phone" type="number" title="联系电话" placeholder="请输入手机号" value="{{ addressList.telNumber }}"/>
+     </i-panel>
+    <button class="submitBtn" form-type="submit">保存地址</button>
+    <!--<i-button bind:click="handleClick" type="ghost">取消</i-button>-->
+  </form>
+  <i-message id="message"/>
+</view>
+

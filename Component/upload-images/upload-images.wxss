@@ -1,0 +1,35 @@
+/* ----------------------------------- 上传图片 Start ----------------------------------- */
+.img-box {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 20rpx 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-box .upload_add,
+.img-box .has_upload {
+  position: relative;
+  width: 150rpx;
+  height: 150rpx;
+  margin: 18.75rpx;
+}
+.img-box image {
+  width: 100%;
+  height: 100%;
+}
+.img-box .upload_add view {
+  position: absolute;
+  top: 95rpx;
+  font-size: 24rpx;
+  width: 100%;
+  text-align: center;
+  color: #999;
+}
+.img-box .has_upload .del {
+  position: absolute;
+  width: 36rpx;
+  height: 36rpx;
+  right: -14rpx;
+  top: -14rpx;
+}
+/* ----------------------------------- 上传图片 End ----------------------------------- */

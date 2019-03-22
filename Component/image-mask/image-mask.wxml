@@ -1,0 +1,12 @@
+<!-- 遮罩 -->
+<view class="image-mask" wx:if="{{ showMaskFlag }}" bindtap="hideImageMask">
+  <div class="show-image">
+    <swiper indicator-dots="true" indicator-active-color="#fff">
+      <block wx:for="{{ MaskImgArr }}" wx:key="{{ index }}">
+        <swiper-item>
+          <image src="{{ item }}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </div>
+</view>

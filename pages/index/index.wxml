@@ -1,0 +1,103 @@
+<!-- 头部 -->
+<view class="header">
+  <!-- 左侧天气 -->
+  <view class="weather-box" bindtap="scanCode">
+    <text class="city">东莞</text>
+    <text class="weather">小雨 20°</text>
+  </view>
+
+  <!-- 搜索框 -->
+  <view class="search-box">
+    <!--<text class="iconfont icon-fangdajing"></text>-->
+    <i-icon type="search" size="22"/>
+    <input class="search" placeholder="请输入菜品"/>
+  </view>
+
+  <!-- 右侧扫码 -->
+  <view class="scan" bindtap="scanCode">
+    <text class="iconfont icon-saoyisao"></text>
+  </view>
+</view>
+
+<!-- swiper banner 区域 -->
+<view class="banner_box">
+  <swiper indicator-dots="true" autoplay="true" interval="3000" circular="true">
+    <block wx:for="{{bannerData}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- 今日推荐区域 -->
+<view class="food_recommend">
+  <text class="title">今日推荐</text>
+  <movable-area>
+    <movable-view class="recommend-slide clearfix" direction="horizontal">
+      <block wx:for="{{ foodRecommendList }}" wx:key="{{ item.food_id }}">
+        <view class="item" data-food-id="{{ item.food_id }}" bindtap="skipFoodDetails">
+          <image src="{{item.sml_image}}"/>
+          <text class="sub-title">{{ item.food_name }}</text>
+          <text class="price">¥{{ item.price }}</text>
+        </view>
+      </block>
+    </movable-view>
+  </movable-area>
+</view>
+<!-- 养生推荐区域 -->
+<view class="health_recommend">
+  <view class="header clearfix">
+    <view class="title">养生推荐</view>
+    <view class="more">更多
+      <text class="iconfont icon-youjiantou"></text>
+    </view>
+  </view>
+  <view class="content">
+    <block wx:for="{{ healthRecommendList }}" wx:key="{{ index }}">
+      <view class="item">
+        <image src="{{ item.src }}"/>
+        <text>{{ item.title }}</text>
+      </view>
+    </block>
+  </view>
+</view>
+
+<!-- 菜品列表区域 -->
+<view class="foodlist-container">
+  <!-- 筛选 -->
+  <view class="select-container clearfix">
+    <picker mode="multiSelector" bindchange="changCanteenVal" bindcolumnchange="changCanteenType"
+            range="{{ canteenTypeArray }}" value="[0, 0]">
+      <view class="picker">
+        {{ canteenVal }}
+        <text class="iconfont icon-shixiangxiajiantou-"></text>
+      </view>
+    </picker>
+    <text class="sold {{ sort ? 'active' : ''}}" bindtap="sortSold">销量</text>
+  </view>
+
+  <!-- 菜品 -->
+  <view class="foodlist">
+    <block wx:for="{{ foodList }}" wx:key="{{ item.food_id }}">
+        <view class="item" data-food-id="{{ item.food_id }}" bindtap="skipFoodDetails">
+          <image src="{{ item.sml_image }}"></image>
+          <view class="content">
+            <text class="title">{{ item.food_name }}</text>
+            <text class="detail">[{{ item.canteenVal }}] {{ item.type }}</text>
+            <text class="price">¥10</text>
+          </view>
+          <view class="order">已售{{ item.sold_num }}
+            <text class="iconfont icon-youjiantou"></text>
+          </view>
+        </view>
+    </block>
+  </view>
+
+  <block wx:if="{{ loading }}">
+    <i-load-more/>
+  </block>
+  <block wx:if="{{ bottomFLag }}">
+    <i-divider content="已经到底部了"></i-divider>
+  </block>
+</view>

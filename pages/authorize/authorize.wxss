@@ -1,0 +1,37 @@
+.authorize-page {
+}
+
+.authorize-page .logo {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 100rpx auto 70rpx;
+}
+.authorize-page .logo image {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  margin: 0 50rpx 90rpx 50rpx;
+}
+
+.content text {
+  display: block;
+}
+.content .title {
+  color: #333;
+  font-size: 34rpx;
+  line-height: 45rpx;
+  padding-bottom: 20rpx;
+}
+.content .details {
+  font-size: 28rpx;
+  color: #9d9d9d;
+  padding-top: 20rpx;
+  line-height: 40rpx;
+  border-top: 1px solid #9d9d9d;
+}
+button {
+  margin: 0 50rpx;
+}

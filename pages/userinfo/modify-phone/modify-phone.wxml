@@ -1,0 +1,12 @@
+<view class="modify-phone-page">
+  <i-input
+          autofocus
+          placeholder="请输入您的手机号"
+          mode="wrapped"
+          value="{{telNumber}}"
+          maxlength="11"
+          bind:change="changePhoneNumber"></i-input>
+  <i-button bind:click="postPhoneNumber" type="warning" loading="{{loading}}">提交修改</i-button>
+
+  <i-message id="message" />
+</view>

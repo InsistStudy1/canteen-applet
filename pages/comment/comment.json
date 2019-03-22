@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "评论",
+  "usingComponents": {
+    "upload-images": "/Component/upload-images/upload-images"
+  }
+}

@@ -1,0 +1,12 @@
+<!-- 上传图片 -->
+<view class="img-box">
+  <view class="has_upload" wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+    <image src="{{item}}"></image>
+    <image class="del" src="../../static/images/del.png" data-index="{{index}}" bindtap="delImage"></image>
+  </view>
+  <!--<image src=""></image>-->
+  <view class="upload_add" bindtap="joinPicture" wx:if="{{addShowFlag}}">
+    <image src="../../static/images/add.jpg"></image>
+    <view>{{addText}}</view>
+  </view>
+</view>

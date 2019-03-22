@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bda0db0e-5512-4a01-bf71-bfb6886ed5c3" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1701043254">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="44" />
+          <entry key="json" value="37" />
+          <entry key="png" value="1" />
+          <entry key="svg" value="1" />
+          <entry key="wxml" value="31" />
+          <entry key="wxss" value="51" />
+          <entry key="xsml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="57" />
+          <entry key="HTML" value="31" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="36" />
+          <entry key="JavaScript" value="44" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SVG" value="1" />
+          <entry key="tsconfig" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="5313" />
+          <entry key="json" value="804" />
+          <entry key="wxml" value="5396" />
+          <entry key="wxss" value="5024" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="5024" />
+          <entry key="HTML" value="5396" />
+          <entry key="JSON" value="804" />
+          <entry key="JavaScript" value="5313" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1048287109">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="91" />
+          <entry key="json" value="28" />
+          <entry key="wxml" value="19" />
+          <entry key="wxss" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="19" />
+          <entry key="JSON" value="28" />
+          <entry key="JavaScript" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="12203" />
+          <entry key="json" value="546" />
+          <entry key="wxml" value="2114" />
+          <entry key="wxss" value="1419" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="1419" />
+          <entry key="HTML" value="2114" />
+          <entry key="JSON" value="546" />
+          <entry key="JavaScript" value="12203" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="2145675933">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="README" value="1" />
+          <entry key="js" value="135" />
+          <entry key="json" value="54" />
+          <entry key="md" value="2" />
+          <entry key="wxml" value="42" />
+          <entry key="wxss" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="25" />
+          <entry key="HTML" value="42" />
+          <entry key="JSON" value="54" />
+          <entry key="JavaScript" value="135" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="README" value="221" />
+          <entry key="js" value="13741" />
+          <entry key="json" value="1769" />
+          <entry key="md" value="306" />
+          <entry key="wxml" value="4352" />
+          <entry key="wxss" value="2562" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="2562" />
+          <entry key="HTML" value="4352" />
+          <entry key="JSON" value="1769" />
+          <entry key="JavaScript" value="13741" />
+          <entry key="Markdown" value="306" />
+          <entry key="PLAIN_TEXT" value="221" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+              <folding>
+                <element signature="e#22#63#0" expanded="true" />
+                <element signature="e#1125#1537#0" />
+                <element signature="e#1585#2060#0" />
+                <element signature="e#2656#3994#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/comment/comment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding>
+                <element signature="e#22#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/comment/comment.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../workPlace/07.items/08.canteen applet/server/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>order-list-container</find>
+      <find>price</find>
+      <find>address-container</find>
+      <find>textare</find>
+      <find>scope.address</find>
+      <find>showImageMask</find>
+      <find>consol</find>
+      <find>navi</find>
+      <find>skipFoodDetailsskipFoodDetails</find>
+      <find>skipFoodDetails</find>
+      <find>i-</find>
+      <find>收获</find>
+      <find>肉沫茄子煲(2)</find>
+      <find>cons</find>
+      <find>currentOrderType</find>
+      <find>editFoodCheck</find>
+      <find>checkCanteenType</find>
+      <find>editFoodNum</find>
+      <find>editCanteenTypeCheck</find>
+      <find>updateShopCarCount</find>
+      <find>提交</find>
+      <find>删除</find>
+      <find>gender</find>
+      <find>updateUserInfo</find>
+      <find>getUserDetailInfo</find>
+      <find>console</find>
+      <find>setShopNavCount</find>
+      <find>userDetailInfo</find>
+      <find>id</find>
+      <find>changCommentContent</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2122824689,1479767289&amp;fm=27&amp;gp=0.jpg</replace>
+      <replace>food_id</replace>
+      <replace>https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2677407440,4154053594&amp;fm=26&amp;gp=0.jpg</replace>
+      <replace>scene-order</replace>
+      <replace>canteen</replace>
+      <replace>telNumber</replace>
+      <replace>panel-container</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\桌面\workPlace\07.items\小程序\canteen applet\static\iview\checkbox</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Component/upload-images/upload-images.json" />
+        <option value="$PROJECT_DIR$/pages/comment/comment.json" />
+        <option value="$PROJECT_DIR$/Component/image-mask/image-mask.json" />
+        <option value="$PROJECT_DIR$/static/iview/drawer/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/userinfo/address-list/address-list.wxss" />
+        <option value="$PROJECT_DIR$/pages/authorize/authorize.js" />
+        <option value="$PROJECT_DIR$/pages/index/index.json" />
+        <option value="$PROJECT_DIR$/static/style/global.wxss" />
+        <option value="$PROJECT_DIR$/pages/post-order/post-order.js" />
+        <option value="$PROJECT_DIR$/pages/post-order/post-order.wxml" />
+        <option value="$PROJECT_DIR$/pages/post-order/post-order.wxss" />
+        <option value="$PROJECT_DIR$/pages/order/order.wxss" />
+        <option value="$PROJECT_DIR$/pages/order/order.js" />
+        <option value="$PROJECT_DIR$/pages/order/order.wxml" />
+        <option value="$PROJECT_DIR$/pages/carts/carts.wxss" />
+        <option value="$PROJECT_DIR$/pages/carts/carts.json" />
+        <option value="$PROJECT_DIR$/pages/order/order.json" />
+        <option value="$PROJECT_DIR$/pages/userinfo/address-list/address-list.wxml" />
+        <option value="$PROJECT_DIR$/pages/me/me.js" />
+        <option value="$PROJECT_DIR$/pages/me/me.wxml" />
+        <option value="$PROJECT_DIR$/pages/userinfo/modify-phone/modify-phone.wxml" />
+        <option value="$PROJECT_DIR$/utils/http.js" />
+        <option value="$PROJECT_DIR$/pages/order/order-list/selectOrderInfo/selectOrderInfo.json" />
+        <option value="$PROJECT_DIR$/pages/order/order-list/selectOrderInfo/selectOrderInfo.wxml" />
+        <option value="$PROJECT_DIR$/pages/order/order-list/selectOrderInfo/selectOrderInfo.js" />
+        <option value="$PROJECT_DIR$/pages/order/order-list/selectOrderInfo/selectOrderInfo.wxss" />
+        <option value="$PROJECT_DIR$/pages/order/select-order-info/select-order-info.json" />
+        <option value="$PROJECT_DIR$/pages/order/post-order/post-order.wxss" />
+        <option value="$PROJECT_DIR$/pages/order/select-order-info/select-order-info.wxml" />
+        <option value="$PROJECT_DIR$/pages/order/select-order-info/select-order-info.wxss" />
+        <option value="$PROJECT_DIR$/pages/order/order-list/order-list.wxml" />
+        <option value="$PROJECT_DIR$/pages/order/order-list/order-list.js" />
+        <option value="$PROJECT_DIR$/pages/userinfo/add-address-list/add-address-list.wxss" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/food-details/food-details.wxml" />
+        <option value="$PROJECT_DIR$/pages/food-details/food-details.js" />
+        <option value="$PROJECT_DIR$/pages/userinfo/modify-phone/modify-phone.js" />
+        <option value="$PROJECT_DIR$/pages/carts/carts.wxml" />
+        <option value="$PROJECT_DIR$/pages/carts/carts.js" />
+        <option value="$PROJECT_DIR$/pages/userinfo/address-list/address-list.js" />
+        <option value="$PROJECT_DIR$/pages/userinfo/add-address-list/add-address-list.js" />
+        <option value="$PROJECT_DIR$/pages/userinfo/add-address-list/add-address-list.wxml" />
+        <option value="$PROJECT_DIR$/utils/utils.js" />
+        <option value="$PROJECT_DIR$/pages/order/post-order/post-order.js" />
+        <option value="$PROJECT_DIR$/../workPlace/07.items/08.canteen applet/server/db.json" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/utils/api.js" />
+        <option value="$PROJECT_DIR$/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/pages/comment/comment.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-242" />
+    <option name="y" value="294" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="canteen applet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canteen applet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canteen applet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canteen applet" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canteen applet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canteen applet" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="comm&#9;FILE&#9;file://D:/桌面/canteen applet/pages/comment/comment.wxml&#10;db&#9;FILE&#9;file://D:/桌面/workPlace/07.items/08.canteen applet/server/db.json&#10;app&#9;FILE&#9;file://D:/桌面/canteen applet/app.js&#10;comment&#9;FILE&#9;file://D:/桌面/canteen applet/pages/comment/comment.js&#10;pos&#9;FILE&#9;file://D:/桌面/canteen applet/pages/order/post-order/post-order.js&#10;ut&#9;FILE&#9;file://D:/桌面/canteen applet/utils/utils.js&#10;add&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/add-address-list/add-address-list.wxml&#10;cart&#9;FILE&#9;file://D:/桌面/canteen applet/pages/carts/carts.wxml&#10;address&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/address-list/address-list.js&#10;ca&#9;FILE&#9;file://D:/桌面/canteen applet/pages/carts/carts.js&#10;index&#9;FILE&#9;file://D:/桌面/canteen applet/pages/index/index.wxml&#10;carts&#9;FILE&#9;file://D:/桌面/canteen applet/pages/carts/carts.js&#10;add4&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/add-address-list/add-address-list.js&#10;addre&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/add-address-list/add-address-list.wxml&#10;addres&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/add-address-list/add-address-list.wxss&#10;order&#9;FILE&#9;file://D:/桌面/canteen applet/pages/order/order-list/order-list.wxml&#10;addr&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/add-address-list/add-address-list.wxml&#10;add-add&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/add-address-list/add-address-list.js&#10;appp&#9;null&#9;null&#10;food&#9;FILE&#9;file://D:/桌面/canteen applet/pages/food-details/food-details.js&#10;car&#9;FILE&#9;file://D:/桌面/canteen applet/pages/carts/carts.wxml&#10;htt&#9;FILE&#9;file://D:/桌面/canteen applet/utils/http.js&#10;api&#9;FILE&#9;file://D:/桌面/canteen applet/utils/api.js&#10;/modify-phone&#9;FILE&#9;file://D:/桌面/canteen applet/pages/userinfo/modify-phone/modify-phone.js&#10;me&#9;FILE&#9;file://D:/桌面/canteen applet/pages/me/me.wxml&#10;inde&#9;FILE&#9;file://D:/桌面/canteen applet/pages/index/index.js&#10;logi&#9;null&#9;null&#10;au&#9;FILE&#9;file://D:/桌面/canteen applet/pages/authorize/authorize.js&#10;post&#9;FILE&#9;file://D:/桌面/canteen applet/pages/post-order/post-order.js&#10;ap&#9;FILE&#9;file://D:/桌面/canteen applet/app.js&#10;a&#9;FILE&#9;file://D:/桌面/canteen applet/app.js&#10;ht&#9;FILE&#9;file://D:/桌面/canteen applet/utils/http.js&#10;up&#9;FILE&#9;file://D:/桌面/canteen applet/Component/upload-images/upload-images.js&#10;f&#9;FILE&#9;file://D:/桌面/canteen applet/pages/food-details/food-details.js&#10;http&#9;FILE&#9;file://D:/桌面/canteen applet/utils/http.js&#10;authorize&#9;FILE&#9;file://D:/桌面/canteen applet/pages/authorize/authorize.js&#10;open&#9;ACTION&#9;OpenFile&#10;op&#9;ACTION&#9;OpenFile&#10;ind&#9;FILE&#9;file://D:/桌面/workPlace/07.items/小程序/canteen applet/pages/index/index.wxml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workPlace/07.items/07.canteen/project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\canteen applet\pages\order" />
+      <recent name="D:\桌面\canteen applet\pages\order\order-list" />
+      <recent name="D:\桌面\workPlace\07.items\小程序\canteen applet\pages\userinfo\edit-address-list" />
+      <recent name="D:\桌面\workPlace\07.items\小程序\canteen applet\pages\userinfo" />
+      <recent name="D:\桌面\workPlace\07.items\小程序\canteen applet\pages\userinfo\address\address-list" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\canteen applet\pages\order\order-list\selectOrderInfo" />
+      <recent name="D:\桌面\canteen applet\pages\post-order" />
+      <recent name="D:\桌面\workPlace\07.items\08.canteen applet\canteen applet\Component" />
+      <recent name="D:\桌面\workPlace\07.items\08.canteen applet\canteen applet\static\images" />
+      <recent name="D:\桌面\workPlace\07.items\小程序\canteen applet\static\images\index" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bda0db0e-5512-4a01-bf71-bfb6886ed5c3" name="Default Changelist" comment="" />
+      <created>1547626696257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547626696257</updated>
+      <workItem from="1547626699084" duration="86960000" />
+      <workItem from="1548125626845" duration="32987000" />
+      <workItem from="1548300104551" duration="71094000" />
+      <workItem from="1548552729310" duration="119681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="310722000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17252396" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Project Explorer" order="3" />
+      <window_info id="Job Explorer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32930845" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32930845" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/address-list/address-list.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/iview/drawer/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style/global.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/order-list/order-list.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/carts/carts.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/carts/carts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/address-list/address-list.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/me/me.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/me/me.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/modify-phone/modify-phone.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/iview/base/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/iview/button/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/order-list/order-list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/select-order-info/select-order-info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/post-order/post-order.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/select-order-info/select-order-info.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/select-order-info/select-order-info.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/order-list/order-list.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#text#0;n#view#2;n#view#0;n#navigator#0;n#view#0;n#block#0;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/add-address-list/add-address-list.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Component/upload-images/upload-images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#289#1561#0" />
+            <element signature="e#1600#2031#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/food-details/food-details.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="42" column="93" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="82" column="85" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="85" />
+          <folding>
+            <element signature="n#view#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/post-order/post-order.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/carts/carts.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/address-list/address-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/add-address-list/add-address-list.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/authorize/authorize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/carts/carts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+          <folding>
+            <element signature="e#499#796#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/food-details/food-details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/me/me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/order-list/order-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/post-order/post-order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="59" />
+          <folding>
+            <element signature="e#22#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/order/select-order-info/select-order-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/add-address-list/add-address-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userinfo/modify-phone/modify-phone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="125" column="18" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="18" />
+          <folding>
+            <element signature="e#71#640#0" />
+            <element signature="e#677#1859#0" />
+            <element signature="e#1900#2065#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="131" column="9" lean-forward="true" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../workPlace/07.items/08.canteen applet/server/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
+          <folding>
+            <element signature="e#18#573#0" />
+            <element signature="e#598#1770#0" />
+            <element signature="e#800#988#0" />
+            <element signature="e#1797#1996#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wxchat-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="53" column="9" selection-start-line="51" selection-start-column="6" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding>
+            <element signature="e#145#478#0" />
+            <element signature="e#506#560#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../workPlace/07.items/08.canteen applet/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding>
+            <element signature="e#22#63#0" expanded="true" />
+            <element signature="e#1125#1537#0" />
+            <element signature="e#1585#2060#0" />
+            <element signature="e#2656#3994#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/comment/comment.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/comment/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#22#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

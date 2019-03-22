@@ -1,0 +1,231 @@
+.fooddetails-container {
+  padding: 20rpx;
+  margin-bottom: 48rpx;
+}
+
+/* ----------------------------------- 菜品信息 Start ----------------------------------- */
+.food-info image {
+  width: 100%;
+  height: 530rpx;
+  border-radius: 10rpx;
+}
+.food-info .content {
+  position: relative;
+  height: 202rpx;
+  border-bottom: 1px solid #e6e6e6;
+}
+.food-info .content .title {
+  display: block;
+  font-weight: 600;
+  line-height: 58rpx;
+  font-size: 38rpx;
+  color: #333;
+}
+.food-info .content .sub-title {
+  display: block;
+  font-size: 20rpx;
+  line-height: 38rpx;
+  color: #818181;
+}
+.food-info .content .price {
+  font-size: 38rpx;
+  color: #f56c20;
+  margin-top: 28rpx;
+}
+.food-info .content .price text {
+  font-size: 20rpx;
+}
+.food-info .content .btn {
+  position: absolute;
+  right: 2rpx;
+  bottom: 31rpx;
+  width: 228rpx;
+  height: 60rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  background-color: #ffcb57;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
+.food-info .content .btn text {
+  font-size: 20rpx;
+  font-weight: 600;
+  margin-right: 10rpx;
+}
+/* ----------------------------------- 菜品信息 End ----------------------------------- */
+
+/* ----------------------------------- 评论内容 Start ----------------------------------- */
+.comment-container {
+  margin: 20rpx 0;
+}
+.comment-container .comment-item {
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.comment-container .comment-item .avatar {
+  flex-basis: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.comment-container .comment-item .content {
+  flex: 1;
+  padding-left: 20rpx;
+}
+.comment-container .comment-item .content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment-container .comment-item .content .header .username {
+  font-size: 30rpx;
+}
+.comment-container .comment-item .content .header .create_time {
+  font-size: 24rpx;
+  color: #666;
+}
+.comment-container .comment-item .content i-rate {
+  position: relative;
+  top: -10rpx;
+}
+.comment-container .comment-item .content .comment-content {
+  display: block;
+  font-size: 28rpx;
+  margin-bottom: 14rpx;
+}
+.comment-container .comment-item .content .image-box {
+  display: flex;
+}
+.comment-container .comment-item .content .image-box image {
+  width: 140rpx;
+  height: 140rpx;
+  margin: 5rpx;
+}
+/* ----------------------------------- 评论内容 End ----------------------------------- */
+
+/* ----------------------------------- 图片遮罩 Start ----------------------------------- */
+.image-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background:rgba(0,0,0,1);
+}
+.show-image {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 750rpx;
+}
+.show-image swiper {
+  width: 100%;
+  height: 100%;
+}
+.show-image swiper image {
+  width: 100%;
+  height: 100%;
+}
+  /* ----------------------------------- 图片遮罩 End ----------------------------------- */
+
+/* ----------------------------------- 脚部导航 Start ----------------------------------- */
+/*脚部导航不激活状态*/
+.footer-nav .icon-car {
+  position: absolute;
+  left: 44rpx;
+  bottom: 16rpx;
+  width: 104rpx;
+  height: 104rpx;
+  box-sizing: border-box;
+  border: 9rpx solid #464544;
+  background-color: #353535;
+  border-radius: 50%;
+}
+.footer-nav .icon-car text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 46rpx;
+  color: #f9f5f2;
+  opacity: 0.24;
+}
+.footer-nav .icon-car .ball {
+  position: absolute;
+  right: -1rpx;
+  top: -3rpx;
+  width: 30rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 16rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #f0300a;
+  border-radius: 50%;
+}
+.footer-nav .icon-car .ball.hide {
+  opacity: 0;
+}
+.footer-nav .price-box {
+  height: 100%;
+}
+.footer-nav .price-box .price {
+  display: block;
+  margin-left: 174rpx;
+  margin-top: 18rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, .3);
+}
+.footer-nav .price-box .order {
+  display: block;
+  margin-left: 174rpx;
+  margin-top: 5rpx;
+  font-size: 20rpx;
+  color: rgba(255, 255, 255, .3);
+}
+.footer-nav .btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 180rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #535257;
+  text-align: center;
+  font-size: 28rpx;
+  color: #f4f4f4;
+}
+
+/*脚部导航激活状态*/
+.footer-nav.active .icon-car {
+  background-color: #f56c20;
+}
+.footer-nav.active .icon-car text {
+  opacity: 1;
+  color: #fff;
+  font-weight: 600;
+}
+.footer-nav.active .price-box .price {
+  color: rgba(255, 255, 255, 1);
+}
+.footer-nav .active-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 180rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 28rpx;
+  background-color: #ffcb57;
+  color: #472d22;
+  font-weight: 600;
+}
+/* ----------------------------------- 脚部导航 End ----------------------------------- */

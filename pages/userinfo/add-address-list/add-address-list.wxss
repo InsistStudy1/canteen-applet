@@ -1,0 +1,58 @@
+Page {
+  background-color: #f7f7f7;
+}
+.add-address-list-title {
+  font-size: 26rpx;
+  color: #333;
+  padding: 10rpx 30rpx;
+}
+
+.gender {
+  margin: 0 20rpx;
+  padding: 20rpx 0 20rpx 130rpx;
+  height: 50rpx;
+  border-bottom: 1px solid #f7f7f7;
+}
+.tabBtn {
+  display: inline-block;
+  border: 1px solid #777;
+  color: #777;
+  border-radius: 3rpx;
+  margin: 5rpx 10rpx;
+  padding: 6rpx 25rpx;
+  font-size: 22rpx;
+}
+.tabBtn.active {
+  color: #ffcc58;
+  border-color: #ffcc58;
+}
+.i-input-input {
+  padding-right: 70rpx;
+}
+.address-container {
+  position: relative;
+}
+.address-container .location {
+  position: absolute;
+  height: 100%;
+  width: 100rpx;
+  top: 0;
+  right: 10rpx;
+  text-align: center;
+  z-index: 99;
+  box-sizing: border-box;
+}
+.address-container text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.submitBtn {
+  margin: 20rpx;
+  color: #fff;
+  background-color: #fcb84f;
+  border-color: #fcb84f;
+  opacity: 1;
+}

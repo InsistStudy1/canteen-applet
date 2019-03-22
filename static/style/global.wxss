@@ -1,0 +1,22 @@
+.clearfix:after, .clearfix:before {
+  content: '';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.footer-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+  height: 88rpx;
+  background-color: #525150;
+  transition: all .6s ease;
+}

@@ -1,0 +1,37 @@
+<view class="address-list-page">
+  <!-- 地址列表 -->
+  <view class="address-list-title">收获地址</view>
+  <view class="address-list">
+    <block wx:for="{{ addressList }}" wx:key="{{ item.address_id }}">
+      <view class="item">
+
+        <view class="info">
+          <view class="address">
+            <view class="default" wx:if="{{ item.is_default }}">默认</view>
+            <text>{{ item.address }} {{ item.detail_address }}</text>
+          </view>
+
+          <view class="userinfo">
+            <text>{{ item.realname }}（{{ item.gender == 0 ? '先生' : '女士' }}） {{ item.telNumber }}</text>
+          </view>
+        </view>
+
+        <view class="operation">
+          <text class="iconfont icon-bianji" data-address-id="1" bindtap="editAddress"></text>
+          <text class="iconfont icon-shanchu" data-address-id="1" bindtap="deleteAddress"></text>
+        </view>
+        <view class="setting_default" wx:if="{{ !item.is_default }}" data-address-id="{{ item.address_id }}" bindtap="setDefaultAddress">设为默认</view>
+      </view>
+    </block>
+  </view>
+
+  <!-- 新增地址 -->
+  <view class="add-address" bindtap="addAddress">
+    <text class="iconfont icon-xinzeng"></text>
+    新增地址
+  </view>
+
+  <i-modal title="删除确认" visible="{{ visible5 }}" actions="{{ actions5 }}" bind:click="handleClick5">
+    <view>删除后无法恢复哦</view>
+  </i-modal>
+</view>

@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userinfo/add-address-list/add-address-list",
+    "pages/order/select-order-info/select-order-info",
+    "pages/order/order-list/order-list",
+    "pages/me/me",
+    "pages/order/post-order/post-order",
+    "pages/userinfo/address-list/address-list",
+    "pages/carts/carts",
+    "pages/food-details/food-details",
+    "pages/comment/comment",
+    "pages/authorize/authorize",
+    "pages/userinfo/modify-phone/modify-phone"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#472d22",
+    "selectedColor": "#472d22",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/tabBar/index.png",
+        "selectedIconPath": "/static/images/tabBar/index_active.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/order-list/order-list",
+        "iconPath": "/static/images/tabBar/order.png",
+        "selectedIconPath": "/static/images/tabBar/order_active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/carts/carts",
+        "iconPath": "/static/images/tabBar/carts.png",
+        "selectedIconPath": "/static/images/tabBar/carts_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/me",
+        "iconPath": "/static/images/tabBar/me.png",
+        "selectedIconPath": "/static/images/tabBar/me_active.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "i-checkbox-group": "/static/iview/checkbox-group/index",
+    "i-checkbox": "/static/iview/checkbox/index",
+    "i-panel": "/static/iview/panel/index",
+    "i-input-number": "/static/iview/input-number/index",
+    "i-swipeout": "/static/iview/swipeout/index",
+    "i-cell-group": "/static/iview/cell-group/index",
+    "i-cell": "/static/iview/cell/index",
+    "i-icon": "/static/iview/icon/index",
+    "i-input": "/static/iview/input/index",
+    "i-button": "/static/iview/button/index",
+    "i-toast": "/static/iview/toast/index",
+    "i-message": "/static/iview/message/index",
+    "i-modal": "/static/iview/modal/index",
+    "i-rate": "/static/iview/rate/index",
+    "i-load-more": "/static/iview/load-more/index",
+    "i-divider": "/static/iview/divider/index",
+    "i-tabs": "/static/iview/tabs/index",
+    "i-tab": "/static/iview/tab/index",
+    "i-action-sheet": "/static/iview/action-sheet/index"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "uploadFile": 10000,
+    "connectSocket": 10000,
+    "downloadFile": 10000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于获取当前定位"
+    }
+  }
+}

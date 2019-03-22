@@ -1,0 +1,25 @@
+<view class="me-page">
+  <!-- 头部区域 -->
+  <view class="page-hd">
+    <view class="userinfo">
+      <image src="{{ userInfo.avatarUrl }}"></image>
+      <text>{{ userInfo.nickName }}</text>
+    </view>
+  </view>
+
+  <!-- 个人信息 -->
+  <view class="page-bd">
+    <i-panel class="cell-panel-demo" title="个人信息">
+      <i-cell-group>
+        <i-cell title="手机号码" is-link url="/pages/userinfo/modify-phone/modify-phone">
+          <i-icon type="mobilephone" slot="icon" size="28" color="#fcb84f"/>
+          <text slot="footer" class="subject-color noSetting" wx:if="{{ telNumber ? false : true }}">未设置</text>
+        </i-cell>
+        <i-cell title="我的地址" is-link url="/pages/userinfo/address-list/address-list">
+          <text class="iconfont icon-dizhi1" slot="icon"></text>
+          <text slot="footer" class="subject-color noSetting" wx:if="{{ default_address ? false : true }}">未设置</text>
+        </i-cell>
+      </i-cell-group>
+    </i-panel>
+  </view>
+</view>
